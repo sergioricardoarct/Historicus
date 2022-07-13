@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(170, 122, 162);
+}
+
+/*cabeça*/
+
+#sec{
+    background:rgb(88, 56, 78)
+   
+}
+#logo{
+    text-align: center;
+    color:seashell;
+    font-size: 3.5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#logohis{
+    color:rgb(255, 164, 46)
+}
+#subt{
+    text-align: center;
+    color:seashell;
+    font-size: 1em;
+}
+#menu{
+    text-align:center;
+    padding: 15px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    padding: 15px;
+}
+#menu a:link,#menu a:visited{
+    color: rgb(255, 164, 46)
+}
+#menu a:hover{
+   color: rgb(88, 56, 78);
+   background:rgb(255, 164, 46);
+}
+
+/*corpo*/
+#corpo{
+    background:rgb(75, 53, 72);
+    width: 920px;
+    margin: 10px auto 0;
+}
+
+#postagens{
+    width: 660px;
+    float: left;
+        
+}
+
+#larteral{
+    width: 240px;
+    float: right;
+    background:cornsilk;
+    margin-bottom: 10px;
+    position: right;
+   
+}
+#roda{
+    clear: both;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    background:wheat;
+
+}
+.posts{
+    padding: 20px;
+    margin-bottom: 0px;
+    background:cornsilk;
+}
+.posts a{
+    padding-left: 0;
+    margin: 0%;
+}
+.posts img{
+   margin-top: 5px;
+   width: 620px;
+   height: auto;
+   border:1px black solid;
+   border-radius: 10px;
+}
+.posts h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:1.5em;
+    color:darkgoldenrod;
+    border-bottom:1px solid black;
+    text-align: right;
+}
+.posts p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.posts span{
+    font-size: 0.8em;
+    display: block;
+    
+    padding-bottom: 10px;
+    margin-bottom:10px;
+}
+
+/*link principal*/
+.posts a:link,.posts a:visited{
+    color: rgb(99, 67, 26)
+}
+.posts a:hover{
+   color: rgb(25, 224, 19);
+   background:darkgoldenrod;
+}
+
+/*corpo lateral*/
+
+.recente{
+   text-align: inherit;
+   padding: 6px;
+   border-bottom:1px black dotted;
+}
+.recente a{
+    padding: 0 0 0 4px;
+
+}
+
+.recente h3 {
+    background:silver;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 1.2em;
+}
+.recente p{
+    padding: 5px;
+    text-align:inherit;
+}
+
+
